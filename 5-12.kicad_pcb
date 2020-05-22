@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 8)
     (tracks 0)
     (zones 0)
     (modules 136)
@@ -2185,7 +2185,7 @@
   )
 
   (module random-keyboard-parts:Molex-0548190589 (layer F.Cu) (tedit 5C494815) (tstamp 5EC35AFF)
-    (at 143.51 55.499 270)
+    (at 145.70625 70.64375 270)
     (path /5EBE57DD)
     (attr smd)
     (fp_text reference USB1 (at 2.032 0) (layer F.SilkS)
@@ -2481,7 +2481,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5EC35A5C)
-    (at 143.891 65.7075 90)
+    (at 161.3535 66.50125 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EBCDFD6)
@@ -2517,7 +2517,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5EC35A4B)
-    (at 148.082 65.786 90)
+    (at 165.5445 66.57975 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EBCF791)
@@ -2553,7 +2553,7 @@
   )
 
   (module Fuse:Fuse_1206_3216Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EC354CE)
-    (at 162.71875 57.94375)
+    (at 159.73125 61.11875)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EBE8C66)
@@ -5479,5 +5479,14 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_line (start 11.90625 161.925) (end 11.90625 71.4375) (layer Edge.Cuts) (width 0.05) (tstamp 5EC7712B))
+  (gr_line (start 276.225 164.30625) (end 14.2875 164.30625) (layer Edge.Cuts) (width 0.05) (tstamp 5EC7712A))
+  (gr_line (start 278.60625 71.4375) (end 278.60625 161.925) (layer Edge.Cuts) (width 0.05) (tstamp 5EC77129))
+  (gr_line (start 14.2875 69.05625) (end 276.225 69.05625) (layer Edge.Cuts) (width 0.05) (tstamp 5EC77128))
+  (gr_arc (start 14.2875 161.925) (end 11.90625 161.925) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 14.2875 71.4375) (end 14.2875 69.05625) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 276.225 161.925) (end 276.225 164.30625) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 276.225 71.4375) (end 278.60625 71.4375) (angle -90) (layer Edge.Cuts) (width 0.05))
 
 )
