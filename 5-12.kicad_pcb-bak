@@ -2185,7 +2185,7 @@
   )
 
   (module random-keyboard-parts:Molex-0548190589 (layer F.Cu) (tedit 5C494815) (tstamp 5EC35AFF)
-    (at 143.51 55.499 270)
+    (at 145.70625 70.64375 270)
     (path /5EBE57DD)
     (attr smd)
     (fp_text reference USB1 (at 2.032 0) (layer F.SilkS)
@@ -2481,7 +2481,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5EC35A5C)
-    (at 143.891 65.7075 90)
+    (at 161.3535 66.50125 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EBCDFD6)
@@ -2517,7 +2517,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5EC35A4B)
-    (at 148.082 65.786 90)
+    (at 165.5445 66.57975 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EBCF791)
@@ -2553,7 +2553,7 @@
   )
 
   (module Fuse:Fuse_1206_3216Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5EC354CE)
-    (at 162.71875 57.94375)
+    (at 159.73125 61.11875)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EBE8C66)
